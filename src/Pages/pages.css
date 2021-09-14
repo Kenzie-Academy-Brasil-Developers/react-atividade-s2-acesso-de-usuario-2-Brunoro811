@@ -1,0 +1,40 @@
+div,
+a,
+ul,
+li,
+main,
+header,
+footer {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  text-decoration: underline;
+}
+.List-Home li {
+  text-align: left;
+}
+.Link--Italic {
+  font-style: italic;
+}
+.Input {
+  padding: 8px;
+  outline: none;
+  border-radius: 3px;
+  border: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+}
+.Row {
+  padding-bottom: 10px;
+  text-align: end;
+}
