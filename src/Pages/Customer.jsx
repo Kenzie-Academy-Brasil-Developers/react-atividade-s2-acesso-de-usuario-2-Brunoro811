@@ -6,7 +6,7 @@ const Customer = () => {
   const { id } = useParams();
   const member = members.find((element) => element.id === id);
   return (
-    <div>
+    <div className="Customer">
       <h1>Detalhes do cliente</h1>
 
       <p>Nome: {member && member.name}</p>

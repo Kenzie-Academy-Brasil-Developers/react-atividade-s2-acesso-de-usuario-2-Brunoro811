@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./pages.css";
 const Home = () => {
   return (
-    <div>
+    <div className="Home">
       <h1>Lista de Pessoas e Empresas</h1>
       <ul className="List-Home">
         {members.map((element) =>
